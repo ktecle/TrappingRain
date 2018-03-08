@@ -90,14 +90,5 @@ public class TrappingRainTest {
 
         Assert.assertEquals(expected,actual);
     }
-    @Test
-    public void testGetTotalWaterTrapped4(){
-        waterTrapped = new TrappingRain();
-        Integer[]wallHeightTest = {11,2,18,21,33,3,1,7,15};
 
-        Integer expected= 43;
-        Integer actual = waterTrapped.getTotalWaterTrapped(wallHeightTest);
-
-        Assert.assertEquals(expected,actual);
-    }
 }
